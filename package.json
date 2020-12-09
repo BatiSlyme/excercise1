@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "excercise2",
+=======
+  "name": "excercise1",
+>>>>>>> refs/heads/master
   "version": "0.0.1",
   "description": "",
   "devDependencies": {

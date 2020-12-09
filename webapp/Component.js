@@ -1,11 +1,19 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
+<<<<<<< HEAD
 	"com/sap/excercise2/model/models"
 ], function (UIComponent, Device, models) {
 	"use strict";
 
 	return UIComponent.extend("com.sap.excercise2.Component", {
+=======
+	"com/sap/excercise1/model/models"
+], function (UIComponent, Device, models) {
+	"use strict";
+
+	return UIComponent.extend("com.sap.excercise1.Component", {
+>>>>>>> refs/heads/master
 
 		metadata: {
 			manifest: "json"

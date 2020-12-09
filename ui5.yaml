@@ -1,6 +1,10 @@
 specVersion: '1.0'
 metadata:
+<<<<<<< HEAD
   name: excercise2
+=======
+  name: excercise1
+>>>>>>> refs/heads/master
 type: application
 resources:
   configuration:

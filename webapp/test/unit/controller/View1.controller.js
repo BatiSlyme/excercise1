@@ -1,7 +1,11 @@
 /*global QUnit*/
 
 sap.ui.define([
+<<<<<<< HEAD
 	"com/sap/excercise2/controller/View1.controller"
+=======
+	"com/sap/excercise1/controller/View1.controller"
+>>>>>>> refs/heads/master
 ], function (Controller) {
 	"use strict";
 

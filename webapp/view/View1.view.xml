@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <mvc:View controllerName="com.sap.excercise2.controller.View1" 
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc">
@@ -9,4 +10,19 @@ xmlns:mvc="sap.ui.core.mvc">
 			<FormattedText htmlText="Hello {/recipient/name}" class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
 		</content>
 	</Panel>
+=======
+<mvc:View controllerName="com.sap.excercise1.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Button text="Say Hello" press=".onShowHello"/>
+						<Input value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%"/>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+>>>>>>> refs/heads/master
 </mvc:View>
